@@ -1,0 +1,19 @@
+# Ambiente e arquivos locais
+.venv/
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Python e Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dados e resultados gerados
+data/
+submissions/
+models/
+
+# Credenciais do Kaggle
+kaggle.json
